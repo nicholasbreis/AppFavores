@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/background_secondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Título do favor -->
+        <TextView
+            android:id="@+id/textTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome do Solicitante"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/alatafont"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginBottom="6dp"/>
+
+        <!-- Descrição do favor -->
+        <TextView
+            android:id="@+id/textDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição do favor"
+            android:textColor="@color/text_secondary"
+            android:textSize="15sp"
+            android:fontFamily="@font/alatafont"
+            android:layout_marginBottom="8dp"
+            android:maxLines="3"
+            android:ellipsize="end"/>
+
+        <!-- Recompensa -->
+        <TextView
+            android:id="@+id/textRecompensa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recompensa:"
+            android:textColor="@color/primary"
+            android:textSize="15sp"
+            android:fontFamily="@font/alatafont"
+            android:textStyle="italic"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Botão Detalhes -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Detalhes"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:backgroundTint="#386663"
+            android:fontFamily="@font/alatafont"
+            app:cornerRadius="10dp"
+            app:elevation="2dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

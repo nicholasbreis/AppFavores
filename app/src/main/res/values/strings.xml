@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AppFavores</string>
+    <string name="app_name">FavConecta</string>
+    <string name="texto_com_html"><u>Esqueci minha senha</u></string>
 </resources>

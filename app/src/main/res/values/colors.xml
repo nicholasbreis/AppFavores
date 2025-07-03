@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Cores base -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <!-- Paleta principal do app -->
+    <color name="primary">#4A90E2</color>
+    <color name="primary_dark">#357ABD</color>
+    <color name="primary_light">#7BB3F0</color>
+    
+    <!-- Cores secundárias -->
+    <color name="secondary">#50C878</color>
+    <color name="secondary_dark">#3DA066</color>
+    <color name="accent">#FF6B35</color>
+    
+    <!-- Cores de fundo -->
+    <color name="background_primary">#F8FAFC</color>
+    <color name="background_secondary">#FFFFFF</color>
+    <color name="background_card">#FFFFFF</color>
+    
+    <!-- Cores de texto -->
+    <color name="text_primary">#2D3748</color>
+    <color name="text_secondary">#718096</color>
+    <color name="text_hint">#A0AEC0</color>
+    
+    <!-- Cores de status -->
+    <color name="success">#48BB78</color>
+    <color name="warning">#ED8936</color>
+    <color name="error">#F56565</color>
+    <color name="info">#4299E1</color>
+    
+    <!-- Cores de gradiente -->
+    <color name="gradient_start">#667EEA</color>
+    <color name="gradient_end">#764BA2</color>
+    
+    <!-- Cores de sombra -->
+    <color name="shadow_light">#1A000000</color>
+    <color name="shadow_medium">#33000000</color>
+    <color name="shadow_dark">#4D000000</color>
+    
+    <!-- Cores específicas do app -->
+    <color name="favor_card_bg">#FFFFFF</color>
+    <color name="button_primary">#4A90E2</color>
+    <color name="button_secondary">#50C878</color>
+    <color name="button_danger">#F56565</color>
 </resources>
